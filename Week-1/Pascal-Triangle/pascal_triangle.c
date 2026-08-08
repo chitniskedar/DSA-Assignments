@@ -2,7 +2,7 @@
 
 int pascal_triangle(int n){
     for (int i=0; i<n; i++){
-        for (int space=0; space<n-i-1; space++){printf(" ");}
+        for (int space=0; space<n-i-1; space++){printf(" ");}  //loop adds spacing to keep triangle center
         int num=1;
         for (int j=0; j<=i; j++){
             printf("%2d", num);
