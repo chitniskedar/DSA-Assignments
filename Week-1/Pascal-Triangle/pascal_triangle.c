@@ -6,7 +6,7 @@ int pascal_triangle(int n){
         int num=1;
         for (int j=0; j<=i; j++){
             printf("%2d", num);
-            num=num*(i-j)/(j+1);}
+            num=num*(i-j)/(j+1);}  //simplified formula of nCr (pascal triangle formula)
         printf("\n");
     }
 }
