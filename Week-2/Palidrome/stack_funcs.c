@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "stack.h"
 
-void stackinit(stack_t *ptr_stack){
+void stackinit(stack_t *ptr_stack){      //funcs taken from notes
     ptr_stack->top_=-1;
 }
 
