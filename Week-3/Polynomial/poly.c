@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include "poly.h"
 
 void init_poly(poly_t *ptr_poly)
